@@ -1,28 +1,28 @@
 class Tinycd < Formula
   desc "Tiny polling and webhook based deployments"
   homepage "https://github.com/maxz411/tinycd"
-  version "0.3.0"
+  version "0.4.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/maxz411/tinycd/releases/download/v0.3.0/tinycd-aarch64-apple-darwin.tar.gz"
-      sha256 "e6fc1989b0b69da3104d7543cfe7dd1845c692b83f514006023771b395e78881"
+      url "https://github.com/maxz411/tinycd/releases/download/v0.4.0/tinycd-aarch64-apple-darwin.tar.gz"
+      sha256 "4e87f126b199c43155393048a38ed67f785a3154c777a75110f2b2fff96b9a83"
     end
     on_intel do
-      url "https://github.com/maxz411/tinycd/releases/download/v0.3.0/tinycd-x86_64-apple-darwin.tar.gz"
-      sha256 "b94f24c174169eadbe58d8a6ea07b04c4b76b5a312b08ba06e079276e6753e1f"
+      url "https://github.com/maxz411/tinycd/releases/download/v0.4.0/tinycd-x86_64-apple-darwin.tar.gz"
+      sha256 "e79a28d9e1fb81286053586da4f8e0a14d7a642024eb2b56d0002016b49d7077"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/maxz411/tinycd/releases/download/v0.3.0/tinycd-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "975d87de3ae212b3587a280189e077a5ade3537440c68fefa1167355ec77920e"
+      url "https://github.com/maxz411/tinycd/releases/download/v0.4.0/tinycd-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "90ba48e8a6e6325a00303f91d365fcab0c47577e26e9cc707afd6807fc5ab267"
     end
     on_intel do
-      url "https://github.com/maxz411/tinycd/releases/download/v0.3.0/tinycd-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "e27710ea2b3d0372cb9c30ecf506898de98511381d5f419194590a534874740b"
+      url "https://github.com/maxz411/tinycd/releases/download/v0.4.0/tinycd-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "072f2369aa67f726861609c188fb6ec9606027d9e96b695cd64ec038d1751a67"
     end
   end
 
